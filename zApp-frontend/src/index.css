@@ -1,0 +1,56 @@
+@font-face {
+    font-family: calibre;
+        src: url("../assets/fonts/TestCalibre-Regular.otf") format("opentype");   
+        font-weight: 300;
+        font-style: normal;
+}
+
+:root {
+    --primary-font: "calibre", "TestCalibre-Regular", sans-serif;
+    --primary-font-size: 16px;
+
+    --neutral: #353535; 
+    --neutral700: #262626;
+    --neutral300: #787878;
+    --neutral200: #C0C0C0;
+    --neutral100: #E1E1E1;
+    --neutral900: #161616;
+
+    --primary: #ED560E;
+    --primary900: #642406;
+    --primary700: #B0400A;
+    --primary600: #D84E0D;
+    --primary300: #F38E5E;
+    --primary100: #F9CBB4;
+
+    --secondary: #272270;
+    --secondary700: #1C194C;
+    --secondary300: #3931AF;
+
+    --accent: #FFA000;
+
+    --h1-size: 74px;
+    --h2-size: 56px;
+    --h3-size: 42px;
+    --h4-size: 32px;
+    --h5-size: 24px;
+    --h6-size: 20px;
+
+    --heading-weight: 800;
+
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--primary-font);
+}
