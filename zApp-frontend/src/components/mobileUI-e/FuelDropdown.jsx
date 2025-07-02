@@ -17,7 +17,7 @@ export default function FuelDropdown() {
         onClick={() => setIsOpen(!isOpen)}
         className={styles.dropdownButton}
       >
-        Fuel type <img src={icons.downArrow.url} alt="Down Arrow" />
+        Fuel type <img src={icons.downArrowWhite.url} alt="Down Arrow" />
       </button>
       {isOpen && (
         <ul className={styles.dropdownList}>

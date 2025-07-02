@@ -3,7 +3,7 @@ import { icons } from "../utils/IconsLibrary";
 import Styles from "./NavBarTop.module.css";
 
 function NavBarUnderTop() {
-  const downArrowLightIcon = icons.downArrow.url;
+  const downArrowLightIcon = icons.downArrowBlack.url;
   return (
 
     <div className={Styles.NavBarUnderTop}>

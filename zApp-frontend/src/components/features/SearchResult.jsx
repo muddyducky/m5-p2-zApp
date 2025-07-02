@@ -16,7 +16,7 @@ const SearchResult = ({
   handleFilterChange,
   onClose,
 }) => {
-  const downArrowLightIcon = icons.downArrow.url;
+  const downArrowLightIcon = icons.downArrowBlack.url;
 
   return (
     <div className={Styles.searchResultsContainer}>

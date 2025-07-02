@@ -20,10 +20,17 @@ const downArrowIcon = {
   scaledSize: { width: 12, height: 8 },
 };
 
-// Down arrow light
+// Down arrow light, white
 
-const downArrowLightIcon = {
+const downArrowLightWhiteIcon = {
   url: `data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='11' height='7' viewBox='0 0 11 7' fill='none'><path d='M5.30775 6.0155L0 0.70775L0.70775 0L5.30775 4.6L9.90775 0L10.6155 0.70775L5.30775 6.0155Z' fill='white'/></svg>`,
+  scaledSize: { width: 11, height: 7 },
+};
+
+// Down arrow light, black
+
+const downArrowLightBlackIcon = {
+  url: `data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='11' height='7' viewBox='0 0 11 7' fill='none'><path d='M5.30775 6.0155L0 0.70775L0.70775 0L5.30775 4.6L9.90775 0L10.6155 0.70775L5.30775 6.0155Z' fill='%23353535'/></svg>`,
   scaledSize: { width: 11, height: 7 },
 };
 
@@ -196,7 +203,8 @@ export const icons = {
   searchIcon: searchIcon,
   searchLargeIcon: searchLargeIcon,
   downArrowBoldIcon: downArrowIcon,
-  downArrow: downArrowLightIcon,
+  downArrowWhite: downArrowLightWhiteIcon,
+  downArrowBlack: downArrowLightBlackIcon,
   closeIcon: closeIcon,
   closeTagIcon: closeTagIcon,
   orangePinIcon: pinOrangeIcon,
